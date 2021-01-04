@@ -1,0 +1,133 @@
+body {
+    padding: 10px;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #222831;
+}
+
+.cadre {
+    display: none;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 560px;
+    background-color: #222831;
+    border: 3px solid;
+    border-color: #30475e;
+}
+
+.card {
+    width: 120px;
+    height: 150px;
+    background-color: #30475e;
+    display: flex;
+    margin: 10px;
+}
+
+.icon {
+    color: #ececec;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    display: none;
+}
+
+.begin {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.begin h1 {
+    font: 3em Robot;
+    font-weight: bold;
+    color: #ececec;
+    padding: 0;
+}
+
+.start {
+    width: 200px;
+    height: 50px;
+    background-color: #30475e;
+    color: #ececec;
+    border: none;
+    margin: 20px auto;
+    font: 1.5em sans-serif;
+    display: flex;
+    text-align: center;
+}
+
+.start:hover {
+    box-shadow: 0 15px 12px rgba(48, 71, 94, 0.3);
+}
+
+.btnSvg {
+    width: 1em;
+    height: 1em;
+    padding: 0;
+    margin: auto;
+}
+
+.start p {
+    margin: auto;
+}
+
+.start:focus {
+    border: none !important;
+}
+
+.start:active {
+    border: none;
+}
+
+.win {
+    color: #ececec;
+    font: 3em sans-serif;
+    font-weight: bold;
+    display: none;
+}
+
+#replay {
+    display: none;
+}
+
+th {
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    color: #ececec;
+    font: 3em sans-serif;
+    font-weight: bold;
+    background-color: #222831;
+    padding: 10px;
+}
+
+table {
+    margin: 10px auto;
+    background-color: #30475e;
+    border: 3px solid;
+    border-color: #30475e;
+}
+
+table:hover {
+    box-shadow: 0 15px 12px rgba(48, 71, 94, 0.3);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #30475e;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #f2a365;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #f2a365;
+}
